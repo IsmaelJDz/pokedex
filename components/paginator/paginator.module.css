@@ -1,0 +1,63 @@
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  justify-content: center;
+}
+
+.pageLink {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+}
+
+.MainPagination {
+  max-width: 200px;
+}
+
+@media (min-width: 0px) and (max-width: 1315px) {
+  .paginationResponsive {
+    width: 100%;
+    margin-top: 10px;
+    list-style: none;
+    display: block;
+  }
+  .paginationResponsive > li > a,
+  .paginationResponsive > li > span {
+    width: 100%;
+    margin: 0;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 0px !important;
+  }
+  .paginationResponsive > li {
+    float: left;
+    width: 20%;
+    margin-top: -1px;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .paginationResponsive > li {
+    width: 33%;
+  }
+}
+@media (max-width: 320px) {
+  .paginationResponsive > li {
+    width: 50%;
+  }
+}
+@media (min-width: 651px) {
+  .toggle-pagination {
+    display: none;
+  }
+}

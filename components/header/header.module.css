@@ -1,0 +1,23 @@
+.header {
+  background-color: #ef5350;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Righteous', cursive;
+  color: var(--yellow);
+  text-shadow: 3px 0px 0px var(--blue-light), 0px 3px 0px var(--blue-light),
+    -3px 0px 0px var(--blue-light), 0px -3px 0px var(--blue-light);
+}
+
+@media screen and (max-width: 482px) {
+  .nav {
+    flex-direction: column;
+  }
+}

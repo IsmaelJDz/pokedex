@@ -1,0 +1,12 @@
+{
+  "card": {
+    "seeDetails": "Ver detalles"
+  },
+  "details": {
+    "title": "Información del pokemon",
+    "type": "Tipo: ",
+    "height": "Altura: ",
+    "weight": "Peso: ",
+    "back": "Volver"
+  }
+}

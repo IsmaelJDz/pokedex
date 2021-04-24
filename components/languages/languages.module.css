@@ -1,0 +1,16 @@
+.mainButtons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.detailsButton {
+  margin: 10px;
+  background: #4299e1;
+  padding: 10px;
+  color: azure;
+  border: none;
+  font-family: 'Montserrat';
+  border-radius: 4px;
+  cursor: pointer;
+}

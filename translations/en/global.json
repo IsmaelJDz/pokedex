@@ -1,0 +1,12 @@
+{
+  "card": {
+    "seeDetails": "See details"
+  },
+  "details": {
+    "title": "Pokemón info",
+    "type": "Type: ",
+    "height": "Height: ",
+    "weight": "Weight: ",
+    "back": "Back"
+  }
+}
