@@ -18,8 +18,19 @@
     "swr": "^0.5.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^10.0.4",
+    "@testing-library/user-event": "^7.2.1",
     "babel-jest": "^26.0.1",
     "jest": "^26.0.1"
-  }
+  },
+  "jest": {
+    "verbose": true,
+    "moduleNameMapper": {
+      "\\.(styl|scss|css|png|jpg|svg)$": "<rootDir>/__test__/__mocks__/styleMock.js"
+    }
+  },
+  "sideEffects": [
+    "./src/services/app/i18n.js"
+  ]
 }

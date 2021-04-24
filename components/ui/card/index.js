@@ -34,9 +34,10 @@ const Card = props => {
             />
           </figure>
           <p className={styles.CardTitle}>
-            # {item.url.slice(34, -1)} {item.name}
+            {item.url.slice(34, -1)} {item.name}
           </p>
           <button
+            data-testId='SeeDetails'
             className={styles.CardButton}
             onClick={() => goToDetails(item.url.slice(34, -1))}>
             {t('card.seeDetails')}

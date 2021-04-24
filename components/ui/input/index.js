@@ -4,6 +4,7 @@ export default function InputSearch({ handleChange }) {
   return (
     <div className={styles.MainInput}>
       <input
+        data-testId='inputSearch'
         type='search'
         name='search'
         className={styles.Search}

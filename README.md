@@ -10,7 +10,7 @@ In the project directory, you can run this commands:
 
 Run the project in local, you need to run the server to get data:
 
-### `npm run dev` ⚙️
+### `npm run dev` ✅
 
 # Technologies 🛠
 
@@ -20,4 +20,4 @@ insert payload
 
 ![Captura de la app](./public/img/pokedex.png)
 
-[endpoint nivel 1](https://api-yoda.herokuapp.com/api/topsecret/) 📦
+[See the app](https://pokedex-beige-sigma.vercel.app/) 📦
