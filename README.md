@@ -1,6 +1,6 @@
 # Pokedex 🚀
 
-Description: Aplication web called "Yoda" in honor Yoda Jedi, to get the coordinates of imperial ship and decrypt the secret message
+Description: Aplication web for see info about your favorite pokemon.
 
 ## Available Scripts
 
