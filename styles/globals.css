@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
   font-size: 16px;
@@ -26,4 +26,46 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+}
+
+.pageNumbers li {
+  padding: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.pageNumbers li.active {
+  background-color: greenyellow;
+  color: blueviolet;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: brown;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pageNumbers li button:hover {
+  background-color: #127de6;
+  color: #ffffff;
+}
+
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+.loadmore {
+  padding: 1rem;
+  background-color: transparent;
+  color: #000;
+  font-size: 1.2rem;
+  border: 1px solid #000;
+  cursor: pointer;
 }
